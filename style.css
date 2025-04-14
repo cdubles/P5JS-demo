@@ -10,4 +10,5 @@ html, body {
   }
   canvas {
     display: block; /* Prevents extra space below the canvas */
+    background-color: black;
   }
