@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    height: 100%; /* Ensure body takes up the full viewport height */
+    background: lightblue;
+  }
+  body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+  }
+  canvas {
+    display: block; /* Prevents extra space below the canvas */
+  }
